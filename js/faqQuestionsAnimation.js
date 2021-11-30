@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	$(".faqContent1").hide();
+		$(".faqarrow1").click(function(){
+			$(".faqarrow1").toggleClass("faqarrowRotate");
+		$(".faqContent1").slideToggle(200);
+  });
+		$(".faqContent2").hide();
+		$(".faqarrow2").click(function(){
+			$(".faqarrow2").toggleClass("faqarrowRotate");
+		$(".faqContent2").slideToggle(200);
+  });
+  	$(".faqContent3").hide();
+		$(".faqarrow3").click(function(){
+			$(".faqarrow3").toggleClass("faqarrowRotate");
+		$(".faqContent3").slideToggle(200);
+  });
+  	$(".faqContent4").hide();
+		$(".faqarrow4").click(function(){
+			$(".faqarrow4").toggleClass("faqarrowRotate");
+		$(".faqContent4").slideToggle(200);
+  });
+});

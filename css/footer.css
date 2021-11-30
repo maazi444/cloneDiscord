@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway',sans-serif;
+}
+
+.footerSection{
+	width: 100%;
+	height: 31.5rem;
+	background-color: #23272a;
+	padding: 4rem 13rem;
+}
+
+.linksFooter{
+	display: flex;
+}
+
+.fSection1,
+.fSection2,
+.fSection3{
+	width: 17rem;
+	height: 100%;
+}
+
+.fSection1 h1{
+	font-family: 'Titillium  Web', sans-serif;
+	font-weight: 900;
+	font-size: 31px;
+	color: #5865F2;
+	text-transform: uppercase;
+	line-height: 35px;
+}
+
+.countryDiv{
+	display: flex;
+	margin-top: 2rem;
+}
+
+.countryDiv img{
+	width: 30px;
+}
+
+.countryDiv p{
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.socialIcons{
+	margin-top: 2rem;
+}
+
+.fa-facebook-square{
+	color: #fff;
+	font-size: 30px;
+	margin: 0px 3px;
+	cursor: pointer;
+}
+
+.fa-twitter-square{
+	color: #fff;
+	font-size: 30px;
+	margin: 0px 3px;
+	cursor: pointer;	
+}
+
+.fa-instagram{
+	font-size: 30px;
+	color: #ffff;
+	margin: 0px 3px;
+	cursor: pointer;
+}
+
+.fa-youtube-play{
+	font-size: 30px;
+	color: #fff;
+	margin: 0px 3px;
+	cursor: pointer;
+}
+
+.fSection2{
+	margin-left: 12rem;
+	padding: 8px;
+}
+
+.fSection2 p{
+	color: #5865F2;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.fSection2 ul{
+	margin-top: 2rem;
+	list-style: none;
+	color: #fff;
+}
+
+.fSection2 ul li{
+	margin: 15px 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.fSection3{
+	padding: 8px;
+}
+
+.fSection3 p{
+	color: #5865F2;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.fSection3 ul{
+	margin-top: 2rem;
+	list-style: none;
+	color: #fff;
+}
+
+.fSection3 ul li{
+	margin: 15px 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.footerLine{
+	width: 70%;
+	color: #5865F2;
+}
+
+hr{
+	color: #5865F2;
+}
+
+.footerEnd{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerEnd img{
+	width: 170px;
+	height: auto;
+}
+
+.btnFooter{
+	background-color: #5865F2;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 100px;
+	font-weight: 700;
+	width: 7rem;
+	height: 3rem;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btnFooter:hover{
+	background-color: #969ef7;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+
